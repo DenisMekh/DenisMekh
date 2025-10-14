@@ -1,4 +1,4 @@
-<h1 align="center">Привет, я [ТВОЁ ИМЯ] 👋</h1>
+<h1 align="center">Привет, я Денис 👋</h1>
 <h3 align="center">
   Я начинающий Python Backend Developer из Санкт-Петербурга
 </h3>
@@ -22,8 +22,6 @@
 - 🌱 Изучаю **Backend**
 - 📫 Как связаться со мной: **t.me/onlyasleep**
 - 😄 Интересный факт: **Gym enjoyer**
-
-## 💻 Стек технологий:
 
 ## 💻 Стек технологий:
 
@@ -54,19 +52,10 @@
   </a>
 </p>
 
-## 📊 Моя статистика GitHub:
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&langs_count=8&theme=radical&hide_border=true" alt="Top Languages" />
-</p>
 
 ## 🚀 Мои проекты:
 
 | Проект | Стек | Ссылка |
 |---|---|---|
-| **AnalyticsMarketplaces 1** <br/> Масштабируемый сервис по аналитике продаж, ключевых метрик пользователя на маркетплейсах Ozon, Wildberries, YandexMarket и в будущем других. | `Python`, `FastAPI`, `PostgreSQL` | [**GitHub**](#) / [**Демо**](#) |
+| **AnalyticsMarketplaces 1** <br/> Масштабируемый сервис по аналитике продаж, ключевых метрик пользователя на маркетплейсах Ozon, Wildberries, YandexMarket и в будущем других. | `Python`, `FastAPI`, `PostgreSQL`, `Celery`, `Redis`, `Docker`, `Git` |
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=USERNAME&theme=radical&hide_border=true" alt="GitHub Streak" />
-</p>
