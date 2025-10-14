@@ -82,6 +82,4 @@
 |---|---|
 | **AnalyticsMarketplaces** <br/> Масштабируемый сервис по аналитике продаж, ключевых метрик пользователя на маркетплейсах Ozon, Wildberries, YandexMarket и в будущем других. | `Python`, `FastAPI`, `PostgreSQL`, `Celery`, `Redis`, `Docker`, `Git` |
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=denismekh&theme=radical&hide_border=true" alt="GitHub Streak" />
-</p>
+
