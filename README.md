@@ -70,11 +70,6 @@
   </a>
 </p>
 
-## 📊 Моя статистика GitHub:
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=denismekh&theme=radical&no-frame=true&no-bg=true" alt="GitHub Trophies" />
-</p>
 
 ## 💡 Мои проекты:
 
