@@ -75,6 +75,6 @@
 
 | Проект | Стек 
 |---|---|
-| **AnalyticsMarketplaces** <br/> Масштабируемый сервис по аналитике продаж, ключевых метрик пользователя на маркетплейсах Ozon, Wildberries, YandexMarket и в будущем других. | `Python`, `FastAPI`, `PostgreSQL`, `Celery`, `Redis`, `Docker`, `Git` |
+| **MarketplaceCRM** <br/> CRM система для работы с маркетплейсами Ozon, Wildberries, YandexMarket и другими. | `Python`, `FastAPI`, `PostgreSQL`, `Celery`, `Redis`, `Docker`, `Git` |
 
 
