@@ -1,6 +1,6 @@
-<h1 align="center">Привет, я Денис 👋</h1>
+<h1 align="center">Hey, I'm Denis 👋</h1>
 <h3 align="center">
-  Я начинающий Golang/Python Backend Developer из Санкт-Петербурга
+  17-year-old Go Backend Developer from Saint Petersburg
 </h3>
 
 <p align="center">
@@ -19,33 +19,24 @@
   </a>
 </p>
 
-## 🚀 Обо мне:
+## 🚀 About Me
 
-- 🛠️ Я специализируюсь на создании **высоконагруженных и масштабируемых Backend-сервисов** на Golang/Python.
-- 🔭 В настоящее время активно разрабатываю **AnalyticsMarketplaces** — мощный сервис аналитики продаж для маркетплейсов.
-- 🌱 Изучаю лучшие практики в области **CI/CD** и **микросервисной архитектуры**.
-- 💡 Моя цель — создавать чистый, эффективный код, который легко поддерживать и масштабировать.
-- 💬 Готов обсудить вопросы, связанные с **FastAPI, асинхронностью, брокерами сообщений и контейнеризацией**.
-- 📫 Связаться со мной можно через Telegram: **t.me/onlyasleep**
-- 😄 Интересный факт: **Gym enjoyer** — моя страсть к дисциплине применима как к коду, так и к тренировкам.
+- 🛠️ I specialize in building **high-performance and scalable backend services** with Go and Python
+- 🔭 Currently developing **MarketplaceCRM** — a powerful CRM system for managing marketplace operations
+- 🌱 Learning best practices in **microservices architecture**, **observability**, and **distributed systems**
+- 💡 My goal is to write clean, efficient code that's easy to maintain and scale
+- 💬 Feel free to ask me about **Go concurrency, REST APIs, message brokers, and containerization**
+- 📫 Reach me on Telegram: **t.me/onlyasleep**
+- 😄 Fun fact: **Gym enjoyer** — discipline in fitness translates to discipline in code
 
-## 🛠️ Стек технологий:
+## 🛠️ Tech Stack
 
 <p align="left">
+  <a href="https://go.dev/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
+  </a>
   <a href="https://www.python.org/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  </a>
-  <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  </a>
-  <a href="https://pydantic-docs.helpmanual.io/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Pydantic-E92318?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic"/>
-  </a>
-  <a href="https://www.sqlalchemy.org/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/SQLAlchemy-34244D?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"/>
-  </a>
-  <a href="https://alembic.sqlalchemy.org/en/latest/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Alembic-000000?style=for-the-badge&logo=alembic&logoColor=white" alt="Alembic"/>
   </a>
   <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
@@ -53,14 +44,14 @@
   <a href="https://redis.io/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
   </a>
-  <a href="https://docs.celeryproject.org/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Celery-37812D?style=for-the-badge&logo=celery&logoColor=white" alt="Celery"/>
-  </a>
-  <a href="https://www.rabbitmq.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ"/>
-  </a>
   <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  </a>
+  <a href="https://prometheus.io/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus"/>
+  </a>
+  <a href="https://grafana.com/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana"/>
   </a>
   <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
@@ -70,11 +61,20 @@
   </a>
 </p>
 
+## 💡 My Projects
 
-## 💡 Мои проекты:
-
-| Проект | Стек 
+| Project | Stack |
 |---|---|
-| **MarketplaceCRM** <br/> CRM система для работы с маркетплейсами Ozon, Wildberries, YandexMarket и другими. | `Python`, `FastAPI`, `PostgreSQL`, `Celery`, `Redis`, `Docker`, `Git` |
+| **MarketplaceCRM** <br/> CRM system for managing marketplace operations on Ozon, Wildberries, YandexMarket and others. Built with modern Go practices. | `Go`, `PostgreSQL`, `Redis`, `Docker`, `Prometheus`, `Grafana`, `Git` |
 
+## 📊 GitHub Stats
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=denismekh&show_icons=true&theme=dark" alt="GitHub Stats" />
+</p>
+
+---
+
+<p align="center">
+  💼 Open to collaboration and interesting projects
+</p>
