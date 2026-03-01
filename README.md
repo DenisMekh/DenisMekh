@@ -148,22 +148,28 @@ A powerful CRM for managing operations on Ozon, Wildberries, YandexMarket and ot
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=denismekh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ADD8&icon_color=00ADD8&text_color=c9d1d9&ring_color=00ADD8" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=denismekh&theme=tokyonight&hide_border=true&background=0d1117&ring=00ADD8&fire=FF6B6B&currStreakLabel=00ADD8&sideLabels=c9d1d9&dates=555555" />
+<!-- Streak Stats — using demolab (most reliable) -->
+<img width="60%" src="https://streak-stats.demolab.com/?user=denismekh&theme=tokyonight&hide_border=true&background=0d1117&ring=00ADD8&fire=FF6B6B&currStreakLabel=00ADD8&sideLabels=c9d1d9&dates=555555" />
 
-<br/>
+<br/><br/>
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=denismekh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ADD8&text_color=c9d1d9" />
+<!-- GitHub Stats & Top Langs — added cache_seconds to avoid rate limits -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=denismekh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ADD8&icon_color=00ADD8&text_color=c9d1d9&ring_color=00ADD8&cache_seconds=86400&rank_icon=github" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=denismekh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ADD8&text_color=c9d1d9&cache_seconds=86400" />
 
 </div>
 
 ---
 
-## 🐍 Contribution Graph
+## 🐍 Contribution Snake
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/DenisMekh/DenisMekh/output/github-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DenisMekh/DenisMekh/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DenisMekh/DenisMekh/output/github-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/DenisMekh/DenisMekh/output/github-snake-dark.svg" />
+</picture>
 
 </div>
 
