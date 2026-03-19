@@ -107,7 +107,7 @@ func main() {
 | Year | Achievement                                                                                        |
 |:----:|:---------------------------------------------------------------------------------------------------|
 | **2026** | 🥇 **Winner** — [Prod 2026](https://prodcontest.ru/) International Industrial Development Olympiad|
-| **2025** | 🥇 **Winner** — Prod 2025 Industrial Development Hackathon, Saint Petersburg                       |
+| **2025** | 🥇 **Winner** — [Prod 2025](https://prodcontest.com/hackathon/) Industrial Development Hackathon, Saint Petersburg                       |
 
 </div>
 
