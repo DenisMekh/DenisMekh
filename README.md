@@ -42,6 +42,7 @@ func main() {
 }
 ```
 
+- 🏆 **Winner** of the international industrial development olympiad **[Prod 2026](https://prodcontest.ru/)**
 - 🔥 Currently building **[L2 Bazar](https://l2bazar.ru/)** — a commercial auction house platform for Lineage 2
 - 🛠️ Also developing **MarketplaceCRM** — CRM for managing Ozon, Wildberries & YandexMarket operations
 - 🧠 Deep diving into **event-driven architecture**, **observability**, and **system design**
@@ -99,10 +100,43 @@ func main() {
 
 ---
 
+## 🏆 Achievements
+
+<div align="center">
+
+| Year | Achievement                                                                                        |
+|:----:|:---------------------------------------------------------------------------------------------------|
+| **2026** | 🥇 **Winner** — [Prod 2026](https://prodcontest.ru/) International Industrial Development Olympiad|
+| **2025** | 🥇 **Winner** — Prod 2025 Industrial Development Hackathon, Saint Petersburg                       |
+
+</div>
+
+---
+
 ## 🚀 Featured Projects
 
 <table>
 <tr>
+<td width="50%">
+
+### 🛡️ [BrandRadar](https://github.com/DenisMekh/BrandRadar)
+**Real-time Brand Reputation Monitoring System**
+
+Backend for a fullstack SaaS platform that aggregates brand mentions from Web, RSS & Telegram, classifies sentiment via ML, detects anomalies and sends spike alerts. Built during Prod 2026 olympiad (team round).
+
+`Go` `Gin` `PostgreSQL` `Redis` `Clean Architecture` `Prometheus` `Grafana` `Docker` `Swagger`
+
+**My role — Backend Developer:**
+- 🧱 Clean Architecture with strict layer separation
+- 📡 Collectors for Web, RSS, Telegram with deduplication
+- 🔔 Spike detection with configurable threshold & cooldown
+- 📊 Prometheus metrics + Grafana dashboards
+- 🩺 Health endpoint with dependency status checks
+- 📝 Event log, full Swagger documentation
+
+[![GitHub](https://img.shields.io/badge/GitHub-Source-181717?style=flat-square&logo=github)](https://github.com/DenisMekh/BrandRadar)
+
+</td>
 <td width="50%">
 
 ### 🏛️ [L2 Bazar](https://l2bazar.ru/)
@@ -122,6 +156,8 @@ A full-featured trading platform where players can buy and sell in-game items �
 [![Live](https://img.shields.io/badge/🌐_Live-l2bazar.ru-00ADD8?style=flat-square)](https://l2bazar.ru/)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 ### 📦 MarketplaceCRM
@@ -137,6 +173,26 @@ A powerful CRM for managing operations on Ozon, Wildberries, YandexMarket and ot
 - 📊 Analytics dashboard with Grafana
 - 🔔 Prometheus-based monitoring
 - 🧱 Clean architecture & modular design
+
+</td>
+<td width="50%">
+
+### 🎲 [Lotty](https://github.com/DenisMekh/Lotty-A-B-testing-platform)
+**A/B Testing Platform**
+
+Backend for a feature experimentation platform with traffic bucketing, event collection, statistical analysis and automated guardrails. Built during Prod 2026 olympiad (individual round).
+
+`Go` `Gin` `PostgreSQL` `Clean Architecture` `Prometheus` `Grafana` `Docker` `Swagger`
+
+**Key features:**
+- 🧪 Experiment lifecycle management (draft, running, paused, completed)
+- 🎯 FNV32a-based deterministic traffic bucketing
+- 📊 Statistical reports with confidence intervals
+- 🛡️ Automated guardrails with background safety checks
+- 👥 Approval workflows & audit logging
+- 📈 Prometheus metrics + Grafana dashboards
+
+[![GitHub](https://img.shields.io/badge/GitHub-Source-181717?style=flat-square&logo=github)](https://github.com/DenisMekh/Lotty-A-B-testing-platform)
 
 </td>
 </tr>
