@@ -58,28 +58,6 @@ Working on production backend systems in a distributed microservice environment.
 
 ## Selected Projects
 
-### mini-transfer-system
-
-**Distributed money transfer backend**
-
-<p>
-  <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/gRPC-244C5A?logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Protobuf-4285F4?logo=google&logoColor=white" />
-</p>
-
-Backend system designed around separate account and transfer services.
-
-* Service-to-service communication through gRPC
-* Protobuf contracts for service APIs
-* Separate account and transfer domains
-* Idempotency support for transfer operations
-* Production-oriented service boundaries and API design
-
-**→ [Open repository](https://github.com/DenisMekh/mini-transfer-system)**
-
-<br>
-
 ### BrandRadar
 
 **Brand monitoring and analytics platform**
