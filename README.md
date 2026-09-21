@@ -130,6 +130,7 @@ Worked on engineering tasks in a real-world integration-heavy product.
 ### Belkora
 
 Contributed to **Belkora** as an additional team project, working on product development and backend-oriented engineering tasks.
+**-> [Belkora.ru](https://belkora.ru/)**
 
 ---
 
