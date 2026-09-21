@@ -4,29 +4,33 @@
 
 ### Backend Engineer · Go / Kotlin / Java
 
-I build production backend services, internal platforms, and distributed systems.
+**Production backend · Distributed systems · Event-driven architecture**
 
-[![Telegram](https://img.shields.io/badge/Telegram-@DenisMekhnetsov-26A5E4?logo=telegram&logoColor=white)](https://t.me/DenisMekhnetsov)
-[![GitHub](https://img.shields.io/badge/GitHub-DenisMekh-181717?logo=github&logoColor=white)](https://github.com/DenisMekh)
+I build backend services, internal platforms, and infrastructure that has to work reliably in production.
+
+<br>
+
+[![Telegram](https://img.shields.io/badge/Telegram-@DenisMekhnetsov-26A5E4?style=flat\&logo=telegram\&logoColor=white)](https://t.me/DenisMekhnetsov)
+[![GitHub](https://img.shields.io/badge/GitHub-DenisMekh-181717?style=flat\&logo=github\&logoColor=white)](https://github.com/DenisMekh)
 
 </div>
 
 ---
 
-## About
+## About me
 
-Backend engineer focused on **distributed systems, reliability, backend performance, and production infrastructure**.
+Backend engineer focused on **distributed systems, reliability, performance, and production infrastructure**.
 
-Currently:
-- **Backend Developer Intern at T-Bank**
-- **Computer Science student at HSE University**
-- Developing mainly with **Go, Kotlin, Java, PostgreSQL, Kafka, ClickHouse, and Kubernetes**
+* Backend Developer Intern at **T-Bank**
+* Computer Science student at **HSE University**
+* Primarily working with **Go, Kotlin, Java, PostgreSQL, Kafka, ClickHouse, and Kubernetes**
+* Interested in high-load backend systems, concurrency, event-driven architecture, and system design
 
 ---
 
 ## Experience
 
-### T-Bank — Backend Developer Intern
+### T-Bank · Backend Developer Intern
 
 <p>
   <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" />
@@ -40,18 +44,41 @@ Currently:
 
 Working on production backend systems in a distributed microservice environment.
 
-- Develop and maintain backend services and internal engineering tools.
-- Build integrations between services and work with event-driven workflows.
-- Improve backend performance through concurrency, batching, database optimization, and more efficient data processing.
-- Improve system reliability through better retries, timeouts, validation, observability, and failure handling.
-- Contribute to internal AI-assisted tooling used in production workflows.
-- Work with CI/CD, Kubernetes, service health checks, networking, and production incidents.
+* Develop and maintain backend services and internal engineering tools
+* Build service integrations and event-driven workflows
+* Improve high-throughput data processing using concurrency, batching, and database optimization
+* Work with PostgreSQL, Kafka, ClickHouse, and distributed service communication
+* Improve reliability through retries, timeouts, validation, observability, and failure handling
+* Contribute to internal AI-assisted tooling and backend infrastructure
+* Work with CI/CD, Kubernetes, service health checks, networking, and production incidents
 
-> Most professional source code is proprietary and therefore not publicly available.
+> Most of my professional work is proprietary, so production source code is not publicly available.
 
 ---
 
 ## Selected Projects
+
+### mini-transfer-system
+
+**Distributed money transfer backend**
+
+<p>
+  <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/gRPC-244C5A?logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Protobuf-4285F4?logo=google&logoColor=white" />
+</p>
+
+Backend system designed around separate account and transfer services.
+
+* Service-to-service communication through gRPC
+* Protobuf contracts for service APIs
+* Separate account and transfer domains
+* Idempotency support for transfer operations
+* Production-oriented service boundaries and API design
+
+**→ [Open repository](https://github.com/DenisMekh/mini-transfer-system)**
+
+<br>
 
 ### BrandRadar
 
@@ -68,19 +95,19 @@ Working on production backend systems in a distributed microservice environment.
 
 Backend platform for collecting, processing, and analyzing brand mentions.
 
-- Modular backend architecture with independent collectors and processing components.
-- Deduplication, analytics, spike detection, and aggregation pipelines.
-- PostgreSQL persistence and Redis caching.
-- Metrics, health checks, Prometheus, and Grafana.
-- Containerized development environment with Docker Compose.
+* Modular architecture with independent collectors and processing components
+* Deduplication, analytics, spike detection, and aggregation pipelines
+* PostgreSQL persistence and Redis caching
+* Health checks, metrics, Prometheus, and Grafana
+* Containerized development environment with Docker Compose
 
 **→ [Open repository](https://github.com/DenisMekh/BrandRadar)**
 
----
+<br>
 
 ### MarketplaceCRM
 
-**Backend CRM for marketplace operations**
+**CRM backend for marketplace operations**
 
 <p>
   <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" />
@@ -91,16 +118,16 @@ Backend platform for collecting, processing, and analyzing brand mentions.
 
 Backend-focused CRM for automating marketplace workflows.
 
-- Structured Go backend with clear separation of responsibilities.
-- Marketplace integrations and business workflow automation.
-- PostgreSQL-backed domain model.
-- Redis and observability tooling for production-style infrastructure.
+* Structured Go backend with clear separation of responsibilities
+* Marketplace integrations and business workflow automation
+* PostgreSQL-backed domain model
+* Redis caching and production-style observability
 
----
+<br>
 
 ### Lotty
 
-**A/B testing platform**
+**A/B testing and experimentation platform**
 
 <p>
   <img src="https://img.shields.io/badge/A%2FB_Testing-Experimentation-6C63FF" />
@@ -109,28 +136,20 @@ Backend-focused CRM for automating marketplace workflows.
 
 Platform for configuring, running, and analyzing controlled experiments.
 
-- Experiment configuration and result analysis.
-- Statistical evaluation of A/B tests.
-- Built as a team project with a product-oriented workflow.
+* Experiment configuration and result analysis
+* Statistical evaluation of A/B tests
+* Product-oriented team development workflow
 
 **→ [Open repository](https://github.com/DenisMekh/Lotty-A-B-testing-platform)**
 
 ---
 
-## Additional Projects
+## Other Product Work
 
-### Addvit
-
-Contributed to **Addvit / MarketBridge**, a product ecosystem around marketplace integrations and business-process automation.
-
-Worked on engineering tasks in a real-world integration-heavy product.
-
-**→ [addvit.ru](https://addvit.ru)**
-
-### Belkora
-
-Contributed to **Belkora** as an additional team project, working on product development and backend-oriented engineering tasks.
-**-> [Belkora.ru](https://belkora.ru/)**
+| Project                                        | What I worked on                                                                         |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **[Addvit / MarketBridge](https://addvit.ru)** | Marketplace integrations and business-process automation in an integration-heavy product |
+| **[Belkora](https://belkora.ru/)**             | Product development and backend-oriented engineering as part of a team project           |
 
 ---
 
@@ -139,27 +158,32 @@ Contributed to **Belkora** as an additional team project, working on product dev
 <table>
 <tr>
 <td><b>Languages</b></td>
-<td>Go · Kotlin · Java · Python · C++</td>
+<td><code>Go</code> · <code>Kotlin</code> · <code>Java</code> · <code>Python</code> · <code>C++</code></td>
 </tr>
+
 <tr>
 <td><b>Backend</b></td>
-<td>REST APIs · Microservices · Event-driven systems · Concurrency · Distributed systems</td>
+<td>REST · gRPC · Microservices · Concurrency · Distributed Systems</td>
 </tr>
+
 <tr>
 <td><b>Data</b></td>
 <td>PostgreSQL · ClickHouse · Redis</td>
 </tr>
+
 <tr>
 <td><b>Messaging</b></td>
-<td>Kafka</td>
+<td>Apache Kafka · Event-driven architecture</td>
 </tr>
+
 <tr>
 <td><b>Infrastructure</b></td>
-<td>Docker · Kubernetes · CI/CD</td>
+<td>Docker · Kubernetes · CI/CD · Linux</td>
 </tr>
+
 <tr>
 <td><b>Observability</b></td>
-<td>Prometheus · Grafana</td>
+<td>Prometheus · Grafana · Metrics · Health Checks</td>
 </tr>
 </table>
 
@@ -167,29 +191,24 @@ Contributed to **Belkora** as an additional team project, working on product dev
 
 ## Achievements
 
-- **PROD'25** — finalist / prize winner
-- Multiple-time **DANO** competition winner
-- HSE University — Faculty of Computer Science
-- Building production backend systems alongside university studies
+* **PROD'25** — finalist / prize winner
+* Multiple-time **DANO** competition winner
+* **HSE University · Faculty of Computer Science**
+* Combining university studies with production backend development
 
 ---
 
-## Current Focus
+## Currently Exploring
 
-```text
-Go backend          ███████████████████░
-Distributed systems ██████████████████░░
-PostgreSQL          █████████████████░░░
-Kafka               ████████████████░░░░
-System design       ███████████████░░░░░
-```
+`Go internals` · `Distributed systems` · `PostgreSQL` · `Kafka` · `System design`
 
 ---
 
 <div align="center">
 
-### Contacts
+### Let's connect
 
-[Telegram](https://t.me/DenisMekhnetsov) · [GitHub](https://github.com/DenisMekh)
+[![Telegram](https://img.shields.io/badge/Telegram-@DenisMekhnetsov-26A5E4?style=flat\&logo=telegram\&logoColor=white)](https://t.me/DenisMekhnetsov)
+[![GitHub](https://img.shields.io/badge/GitHub-DenisMekh-181717?style=flat\&logo=github\&logoColor=white)](https://github.com/DenisMekh)
 
 </div>
