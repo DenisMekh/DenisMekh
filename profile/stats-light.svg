@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="195" viewBox="0 0 440 195" role="img" aria-labelledby="t desc">
+<title id="t">GitHub activity</title>
+<desc id="desc">Automatically generated card. The first GitHub Actions refresh is pending.</desc>
+<rect x=".5" y=".5" width="439" height="194" rx="12" fill="#F5FAFD" stroke="#CFDFE8"/>
+<rect x="21" y="24" width="5" height="18" rx="2" fill="#087F82"/>
+<text x="36" y="39" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="17" font-weight="700" fill="#1C3C50">GitHub activity</text>
+<text x="22" y="80" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#597587">Automatic metrics refresh is enabled.</text>
+<text x="22" y="100" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#597587">First snapshot is being prepared.</text>
+<rect x="22" y="128" width="396" height="8" rx="4" fill="#D9EDF2"/>
+<rect x="22" y="128" width="215" height="8" rx="4" fill="#087F82" opacity=".75"/>
+<text x="22" y="170" font-family="ui-monospace, monospace" font-size="10.5" fill="#597587">SOURCE / GITHUB ACTIONS</text>
+</svg>

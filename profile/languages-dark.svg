@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="195" viewBox="0 0 360 195" role="img" aria-labelledby="t desc">
+<title id="t">Public code languages</title>
+<desc id="desc">Automatically generated card. The first GitHub Actions refresh is pending.</desc>
+<rect x=".5" y=".5" width="359" height="194" rx="12" fill="#101F2F" stroke="#355267"/>
+<rect x="21" y="24" width="5" height="18" rx="2" fill="#68E3D2"/>
+<text x="36" y="39" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="17" font-weight="700" fill="#E5F3FD">Public code</text>
+<text x="22" y="80" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#9DB8C9">Automatic metrics refresh is enabled.</text>
+<text x="22" y="100" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#9DB8C9">First snapshot is being prepared.</text>
+<rect x="22" y="128" width="316" height="8" rx="4" fill="#264B62"/>
+<rect x="22" y="128" width="145" height="8" rx="4" fill="#68E3D2" opacity=".75"/>
+<text x="22" y="170" font-family="ui-monospace, monospace" font-size="10.5" fill="#9DB8C9">SOURCE / GITHUB ACTIONS</text>
+</svg>

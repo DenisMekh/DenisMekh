@@ -1,76 +1,97 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+    <img src="./assets/header-light.svg" width="880" alt="Denis Mekhnetsov — Reliable systems. Measurable impact.">
+  </picture>
+</p>
+
 <div align="center">
 
-# Denis Mekhnetsov
+**Backend Engineer · Go / Kotlin / Java**
 
-### Backend Engineer · Go / Kotlin / Java
+Production engineering experience at **T-Bank** · Computer Science at **HSE University**
 
-**Building reliable backend services, data pipelines, and developer infrastructure.**
-
-Production backend experience at **T-Bank** · Computer Science at **HSE University**
-
-[**Featured projects**](#selected-projects) · [**Telegram**](https://t.me/DenisMekhnetsov)
+[**Featured projects**](#featured-projects) · [**Engineering stack**](#engineering-stack) · [**Telegram**](https://t.me/DenisMekhnetsov)
 
 </div>
 
 ---
 
-## Engineering background
+## About
 
-I'm a backend engineer with hands-on experience building and improving services in production environments. My primary interests are **Go, distributed systems, data-intensive applications, reliability, and performance engineering**.
+I build backend services that are **predictable, observable, and maintainable**. I care about clear contracts, data correctness, failure handling, and making performance improvements measurable.
 
-**Previously — Backend Developer, T-Bank**
+Previously, I worked on production backend systems and internal developer tooling at **T-Bank**. My work involved service integrations, background processing, data pipelines, release workflows, and operational reliability.
 
-- Contributed to backend services and internal engineering tools in a microservice environment.
-- Worked on release workflows, background processing, and data-quality improvements.
-- Used **Go, Kotlin, Java, PostgreSQL, Kafka, ClickHouse, Kubernetes**, and production observability tooling.
-- Investigated operational issues and improved service behavior through careful failure handling and monitoring.
+My primary interests are **Go, distributed systems, data-intensive applications, performance engineering**, and developer infrastructure.
 
-> Most of my work at T-Bank is proprietary. The projects below are public examples of my engineering approach, not copies of internal systems.
+> Much of my T-Bank work is proprietary. The projects below are public examples of how I approach engineering, not copies of internal systems.
 
-## Selected projects
+## Featured projects
 
-### [Lotty — A/B testing backend](https://github.com/DenisMekh/Lotty-A-B-testing-platform)
+| Project | What is worth exploring |
+| :--- | :--- |
+| **[Lotty — A/B testing platform](https://github.com/DenisMekh/Lotty-A-B-testing-platform)** <br><sub>Go · PostgreSQL · Gin · Prometheus · Grafana</sub> | Deterministic assignment, experiment lifecycle, event attribution, and automated guardrails. Includes [C4 architecture](https://github.com/DenisMekh/Lotty-A-B-testing-platform/tree/main/docs/architecture), [ADRs](https://github.com/DenisMekh/Lotty-A-B-testing-platform/tree/main/docs/adr), [runbook](https://github.com/DenisMekh/Lotty-A-B-testing-platform/blob/main/docs/runbook.md), and reproducible demos. |
+| **[BrandRadar — Brand monitoring](https://github.com/DenisMekh/BrandRadar)** <br><sub>Go · PostgreSQL · Redis · React · Python/FastAPI</sub> | Ingestion from web, RSS, and Telegram; deduplication, ML-assisted classification, anomaly detection, alerts, and observability. Explore the [source](https://github.com/DenisMekh/BrandRadar) and [backend documentation](https://github.com/DenisMekh/BrandRadar/blob/main/backend/README.md). |
 
-**Go · PostgreSQL · Gin · Prometheus · Grafana**
+**What I optimize for:** clear boundaries between services, testable behavior, practical observability, and documentation that lets another engineer reproduce the system.
 
-A backend platform for controlled experiments, with a deterministic assignment engine, experiment lifecycle, event ingestion, and automated guardrails.
+## Engineering stack
 
-**Engineering highlights:**
-- Deterministic bucketing and persistent assignment decisions.
-- Experiment state machine, approval workflow, and event attribution.
-- Guardrail monitoring with automated mitigation behavior.
-- Test suite, architecture decisions (ADRs), C4 diagrams, and reproducible demo scripts.
+**Backend / communication**
 
-[Source code](https://github.com/DenisMekh/Lotty-A-B-testing-platform) · [Architecture](https://github.com/DenisMekh/Lotty-A-B-testing-platform/tree/main/docs/architecture) · [Runbook](https://github.com/DenisMekh/Lotty-A-B-testing-platform/blob/main/docs/runbook.md)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-backend-dark.svg">
+  <img src="./assets/stack-backend-light.svg" width="780" alt="Go, Kotlin, Java, gRPC, Kafka">
+</picture>
 
-### [BrandRadar — brand monitoring platform](https://github.com/DenisMekh/BrandRadar)
+**Data / infrastructure**
 
-**Go · PostgreSQL · Redis · React · Python / FastAPI · Prometheus**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-platform-dark.svg">
+  <img src="./assets/stack-platform-light.svg" width="780" alt="PostgreSQL, ClickHouse, Redis, Docker, Kubernetes">
+</picture>
 
-A system that collects brand mentions from web pages, RSS, and Telegram, processes them with ML services, detects anomalies, and exposes analytics and alerts.
+**Observability & delivery:** Prometheus · Grafana · CI/CD · Git · Linux · REST/HTTP
 
-**Engineering highlights:**
-- Independent collection and processing components, with background workers.
-- Deduplication, PostgreSQL persistence, and Redis integration.
-- Integrations with ML classification, clustering, notifications, and monitoring.
-- Backend tests and a containerized development setup.
+### Engineering radar
 
-[Source code](https://github.com/DenisMekh/BrandRadar) · [Backend architecture](https://github.com/DenisMekh/BrandRadar/blob/main/backend/README.md)
+| Use | Build | Explore |
+| :--- | :--- | :--- |
+| Go, JVM, PostgreSQL, Kafka | Services, pipelines, internal tooling | AI-assisted developer workflows |
+| Docker, Kubernetes, monitoring | Experimentation and observability | Agent integrations and automation |
 
-## Core stack
+## GitHub activity
 
-| Area | Technologies |
-| --- | --- |
-| **Primary language** | Go |
-| **Other backend languages** | Kotlin, Java |
-| **Communication** | REST, gRPC, Kafka |
-| **Data** | PostgreSQL, ClickHouse, Redis |
-| **Operations** | Docker, Kubernetes, CI/CD, Prometheus, Grafana |
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
+    <img src="./profile/stats-light.svg" width="440" alt="Automatically updated GitHub activity statistics">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/languages-dark.svg">
+    <img src="./profile/languages-light.svg" width="360" alt="Languages in public, non-fork repositories">
+  </picture>
+</p>
 
-## Education
+<sub>Cards are generated daily by GitHub Actions. Language percentages reflect repository code, not proficiency; proprietary work is not represented in public-language statistics.</sub>
+
+<details>
+<summary><strong>A year of contributions — animated</strong></summary>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DenisMekh/DenisMekh/output/github-snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/DenisMekh/DenisMekh/output/github-snake.svg" width="880" alt="Animated snake crossing the GitHub contribution graph">
+  </picture>
+</p>
+
+<sub>Generated by [snk](https://github.com/Platane/snk) using the existing [snake workflow](https://github.com/DenisMekh/DenisMekh/blob/main/.github/workflows/snake.yml).</sub>
+
+</details>
+
+## Education & contact
 
 **HSE University** — Faculty of Computer Science.
 
-## Contact
-
-If you're hiring for a **Go / Backend Engineering** role or want to discuss a project, reach me on **[Telegram](https://t.me/DenisMekhnetsov)**.
+Interested in discussing **Go / Backend Engineering**, distributed systems, or a project? Reach me on **[Telegram](https://t.me/DenisMekhnetsov)**.
