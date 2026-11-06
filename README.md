@@ -38,21 +38,72 @@ My primary interests are **Go, distributed systems, data-intensive applications,
 
 ## Engineering stack
 
-**Backend / communication**
+I work primarily on backend services and data systems. These are technologies I've used in professional or public-project work, grouped by purpose rather than proficiency.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-backend-dark.svg">
-  <img src="./assets/stack-backend-light.svg" width="780" alt="Go, Kotlin, Java, gRPC, Kafka">
-</picture>
+**Languages & APIs**
 
-**Data / infrastructure**
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/go-dark.svg">
+    <img src="./assets/stack/go-light.svg" width="156" height="72" alt="Go">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/kotlin-dark.svg">
+    <img src="./assets/stack/kotlin-light.svg" width="156" height="72" alt="Kotlin">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/java-dark.svg">
+    <img src="./assets/stack/java-light.svg" width="156" height="72" alt="Java">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/grpc-dark.svg">
+    <img src="./assets/stack/grpc-light.svg" width="156" height="72" alt="gRPC">
+  </picture>
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-platform-dark.svg">
-  <img src="./assets/stack-platform-light.svg" width="780" alt="PostgreSQL, ClickHouse, Redis, Docker, Kubernetes">
-</picture>
+**Data & messaging**
 
-**Observability & delivery:** Prometheus · Grafana · CI/CD · Git · Linux · REST/HTTP
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/postgresql-dark.svg">
+    <img src="./assets/stack/postgresql-light.svg" width="156" height="72" alt="PostgreSQL">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/clickhouse-dark.svg">
+    <img src="./assets/stack/clickhouse-light.svg" width="156" height="72" alt="ClickHouse">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/redis-dark.svg">
+    <img src="./assets/stack/redis-light.svg" width="156" height="72" alt="Redis">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/kafka-dark.svg">
+    <img src="./assets/stack/kafka-light.svg" width="156" height="72" alt="Kafka">
+  </picture>
+</p>
+
+**Infrastructure & observability**
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/docker-dark.svg">
+    <img src="./assets/stack/docker-light.svg" width="156" height="72" alt="Docker">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/kubernetes-dark.svg">
+    <img src="./assets/stack/kubernetes-light.svg" width="156" height="72" alt="Kubernetes">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/prometheus-dark.svg">
+    <img src="./assets/stack/prometheus-light.svg" width="156" height="72" alt="Prometheus">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack/grafana-dark.svg">
+    <img src="./assets/stack/grafana-light.svg" width="156" height="72" alt="Grafana">
+  </picture>
+</p>
+
+<sub>Also part of my workflow: REST/HTTP, Git, Linux, and CI/CD. Icons are embedded locally; see [asset credits](assets/stack/ICON-LICENSES.md).</sub>
 
 ### Engineering radar
 
