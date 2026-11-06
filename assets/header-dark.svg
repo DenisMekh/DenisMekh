@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="242" viewBox="0 0 880 242" role="img" aria-labelledby="title desc">
+<title id="title">Denis Mekhnetsov — Backend Engineering</title>
+<desc id="desc">Reliable systems. Measurable impact. Go and distributed systems, visualized as a service-to-events-to-data pipeline.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0C1727"/><stop offset="1" stop-color="#123244"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#28475A" stroke-width=".7" opacity=".30"/></pattern>
+</defs>
+<rect width="880" height="242" rx="16" fill="url(#bg)"/>
+<rect width="880" height="242" rx="16" fill="url(#grid)"/>
+<rect x=".7" y=".7" width="878.6" height="240.6" rx="15.3" fill="none" stroke="#31566B" stroke-width="1.4"/>
+<rect x="30" y="24" width="7" height="7" rx="2" fill="#68E3D2"/>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.7" fill="#7BC5D7">
+  <text x="47" y="31">DENIS MEKHNETSOV / ENGINEERING</text>
+  <text x="31" y="221" letter-spacing="1.2">DESIGN  /  BUILD  /  OPERATE</text>
+</g>
+<g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="700" letter-spacing="-1.7">
+  <text x="29" y="97" font-size="47" fill="#F4FAFF">Reliable systems.</text>
+  <text x="29" y="150" font-size="47" fill="#68E3D2">Measurable impact.</text>
+</g>
+<text x="31" y="186" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="15" fill="#A8C1CE">Go  ·  Distributed systems  ·  Data platforms</text>
+<g transform="translate(595,20)" font-family="ui-monospace, Menlo, Consolas, monospace">
+  <rect x="1" y="1" width="253" height="202" rx="16" fill="#162F42" fill-opacity=".36" stroke="#31566B"/>
+  <text x="20" y="24" font-size="11" letter-spacing="1.5" fill="#A8C1CE">SYSTEM / FLOW</text>
+  <path d="M125 54V70M125 115V132" stroke="#68E3D2" stroke-width="2" stroke-linecap="round"/>
+  <path d="M120 66L125 72L130 66M120 128L125 134L130 128" fill="none" stroke="#68E3D2" stroke-width="1.6" stroke-linejoin="round"/>
+  <rect x="53" y="35" width="145" height="29" rx="8" fill="#162F42" stroke="#477688"/>
+  <rect x="53" y="79" width="145" height="36" rx="8" fill="#162F42" stroke="#477688"/>
+  <rect x="53" y="135" width="145" height="29" rx="8" fill="#162F42" stroke="#477688"/>
+  <circle cx="70" cy="49.5" r="4" fill="#6FE7D7"/><circle cx="70" cy="97" r="4" fill="#6FE7D7"/><circle cx="70" cy="149.5" r="4" fill="#6FE7D7"/>
+  <g font-size="12" font-weight="600" fill="#F4FAFF">
+    <text x="85" y="54">HTTP / gRPC</text>
+    <text x="85" y="102">EVENT STREAM</text>
+    <text x="85" y="154">DATA STORE</text>
+  </g>
+  <g font-size="10" fill="#A8C1CE">
+    <text x="20" y="188">observable</text>
+    <text x="144" y="188">resilient</text>
+  </g>
+</g>
+</svg>

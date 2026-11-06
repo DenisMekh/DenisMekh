@@ -1,0 +1,129 @@
+name: Refresh profile statistics
+
+on:
+  schedule:
+    - cron: "29 4 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - feat/profile-redesign-v2
+    paths:
+      - README.md
+      - assets/**
+      - .github/workflows/profile-stats.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-statistics-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.repository == 'DenisMekh/DenisMekh'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - name: Generate light GitHub stats
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          core_version: "2.2.0"
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&disable_animations=true&card_width=440&custom_title=GitHub%20activity&title_color=087F82&icon_color=087F82&text_color=1C3C50&bg_color=F5FAFD&border_color=CFDFE8
+          path: profile/stats-light.svg
+          token: ${{ github.token }}
+          fail_on_error: "true"
+
+      - name: Generate dark GitHub stats
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          core_version: "2.2.0"
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&disable_animations=true&card_width=440&custom_title=GitHub%20activity&title_color=68E3D2&icon_color=68E3D2&text_color=E5F3FD&bg_color=101F2F&border_color=355267
+          path: profile/stats-dark.svg
+          token: ${{ github.token }}
+          fail_on_error: "true"
+
+      - name: Generate light language card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          core_version: "2.2.0"
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide=Jupyter%20Notebook&disable_animations=true&card_width=360&custom_title=Public%20code&title_color=087F82&text_color=1C3C50&bg_color=F5FAFD&border_color=CFDFE8
+          path: profile/languages-light.svg
+          token: ${{ github.token }}
+          fail_on_error: "true"
+
+      - name: Generate dark language card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          core_version: "2.2.0"
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide=Jupyter%20Notebook&disable_animations=true&card_width=360&custom_title=Public%20code&title_color=68E3D2&text_color=E5F3FD&bg_color=101F2F&border_color=355267
+          path: profile/languages-dark.svg
+          token: ${{ github.token }}
+          fail_on_error: "true"
+
+      - name: Check the generated graphics
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree
+
+          expected = (
+              "profile/stats-light.svg",
+              "profile/stats-dark.svg",
+              "profile/languages-light.svg",
+              "profile/languages-dark.svg",
+          )
+          for name in expected:
+              path = Path(name)
+              if not path.is_file():
+                  raise SystemExit(f"Missing card: {path}")
+              content = path.read_text(encoding="utf-8")
+              root = ElementTree.fromstring(content)
+              if root.tag != "{http://www.w3.org/2000/svg}svg":
+                  raise SystemExit(f"Invalid SVG: {path}")
+              if "Something went wrong" in content:
+                  raise SystemExit(f"Error card: {path}")
+              path.write_text(content.strip() + "\n", encoding="utf-8")
+          PY
+
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: profile-statistics
+          path: profile/*.svg
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7
+        with:
+          name: profile-statistics
+          path: profile
+
+      - name: Commit refreshed graphics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- profile/stats-light.svg profile/stats-dark.svg profile/languages-light.svg profile/languages-dark.svg
+          if git diff --cached --quiet; then
+            echo "No image changes"
+            exit 0
+          fi
+          git commit -m "chore(profile): refresh activity cards"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
