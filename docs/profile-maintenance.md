@@ -5,10 +5,10 @@ The profile is the root `README.md`. It is written in English for recruiters and
 ## Visual assets
 
 - `assets/header-{light,dark}.svg` — original vector header with a system-flow motif.
-- `assets/stack-backend-{light,dark}.svg` — compact, custom monogram tiles for backend and messaging.
-- `assets/stack-platform-{light,dark}.svg` — custom monogram tiles for data and infrastructure.
-- All six files are original SVG artwork (no copied logo assets or remote icon requests).
-- Update light and dark variants together. Check legibility at mobile widths.
+- `assets/stack/<technology>-{light,dark}.svg` — individual technology tiles (actual brand icon glyph, name, short role label).
+- The four-icon group layout wraps on narrow screens instead of shrinking a whole strip.
+- Icon glyphs come from [Simple Icons](https://github.com/simple-icons/simple-icons) (CC0) and [Devicon](https://github.com/devicons/devicon) (MIT; gRPC). The tiles and color palette are original. See `assets/stack/ICON-LICENSES.md`.
+- All icons are local, with no runtime CDN dependency. Update both theme variants together and review mobile wrapping.
 
 ## Activity cards
 
